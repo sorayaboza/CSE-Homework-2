@@ -1,0 +1,60 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Homework 2}
+\author{Soraya Boza}
+\date{February 10, 2020}
+
+\begin{document}
+
+\maketitle
+
+\section*{Knowledge Representation}
+% Translating the sentences into propositional logic.
+
+\textbf{It is not cloudy and it is not raining.}\\
+Let p = "It is not cloudy", and let q = "It is raining", then: \\
+$\lnot p \to \lnot p$\\\\
+\textbf{I like to eat apples and bananas.}\\
+Let p = "I like to eat apples", and let q = "I like to eat bananas", then:\\
+$p \to q $\\\\
+\textbf{Behind the clouds the sun is shining.}\\
+Let p = "Behind the clouds", and let q = "The sun is shining", then:\\
+pq\\\\
+\textbf{If a function is differentiable then the function is continuous.}\\
+Let p = "A function is differentiable", and let q = "The function is continuous", then:\\
+(p \to q)\\\\
+\textbf{I will study for the final otherwise I will fail.}\\
+Let p = "I will study for the final", and let q = "I will fail", then:\\
+p \lor q
+
+\section*{Equivalence in Propositional Logic}
+% Determining whether the following pairs of propositions are equivalent to each other.  If they are not equivalent, explain why. If they are equivalent, provide a proof.
+
+% One
+$p\land q\
+and\
+p \lor  \lnot q$\\
+\textbf{These two are not equivalent because they don't match in truth tables.}\\\\
+% Two
+$p\lor q\
+and\
+\lnot p \lor  \lnot q$\\\\
+\textbf{These two are not equivalent.}\\\\
+% Three
+$p \to q\
+and\
+\lnot p \to  \lnot q$\\\\
+\textbf{These two are not equivalent.}\\\\
+% Four
+$p \to q\
+and\
+\lnot p \lor q$\\\\
+\textbf{These two are equivalent.}\\\\
+% Five
+$\lnot (p\land q)\
+and\
+\lnot p \lor  \lnot q$\\\\
+\textbf{These two are not equivalent.}\\\\
+
+\end{document}
